@@ -1,11 +1,10 @@
 # Team Information
 - **Name:** R Yeeshu Dhurandhar, Abhiram Gottumukkala
 - **AndrewID:** rdhurand, agottumu
-- **GitHub user IDs:** ryeeshu, agottumu-lgtm
-- **GitHub Classroom team name:** split_brain
-- **Work distribution:** We usually sit together and work through the code using pair programming. For smaller sections that one of us completes in the absence of the other, we first catch up and review the changes together before continuing in the next session. The only part we worked on individually was the documentation, which we divided equally between us.
+- **Course:** 14-736 Distributed Systems: Techniques, Infrastructure, and Services
+- **Mentor:** Prof. Patrick Tague 
 
-# Lab 1 Summary (Remote Objects / RPC Library)
+# Remote Objects / RPC Library Summary
 
 In this lab, we built a small remote objects library in Go, similar to the idea of RPC/RMI. The goal is that a client can call methods on a remote server as if they are normal local function calls, while the library handles the networking details in the background.
 
@@ -95,15 +94,3 @@ We used following references while writing the code:
 - Go documentation: https://go.dev/doc/
 - For Debugging: https://github.com/go-delve/delve
 - Class slides, especially, reflection topic
-
-Use of AI tools:
-- To understand the test cases.
-- To understand the error messages and how to debug them.
-- To learn some Go language syntax and semantics used in this lab.
-- To get syntax help for go language, e.g., how to use mutexes, how to read from a TCP connection, how to write to a TCP connection, etc.
-- To get a proper structure of how the comments should be written so that the gomarkdoc generates clean documentation. E.g., what should be included in the overview section, how to write function comments, etc.
-- To paraphrase certain sections of the README.md file and comments in the code files.
-- To convert normal text to markdown format.
-
-
-
